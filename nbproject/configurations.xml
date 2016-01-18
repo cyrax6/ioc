@@ -16,7 +16,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>src/Car.cpp</itemPath>
       <itemPath>src/Engine.cpp</itemPath>
       <itemPath>src/MockEngine.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -59,8 +58,6 @@
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="src/Car.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="src/Engine.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/MockEngine.cpp" ex="false" tool="1" flavor2="0">
@@ -96,8 +93,6 @@
       <item path="header/MockEngine.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="src/Car.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/Engine.cpp" ex="false" tool="1" flavor2="0">
       </item>

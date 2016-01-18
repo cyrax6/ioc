@@ -18,8 +18,12 @@ class Engine
 {
 public:
     Engine();
-    Engine(const Engine& orig);
-    virtual ~Engine();
+    ~Engine();
+    
+    void Start() { }
+    void Rev() { }
+    void Stop() { }
+    void Shutoff() { }
 private:
 
 };

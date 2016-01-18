@@ -15,7 +15,6 @@
 
 Engine::Engine() { }
 
-Engine::Engine(const Engine& orig) { }
 
 Engine::~Engine() { }
 

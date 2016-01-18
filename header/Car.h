@@ -14,19 +14,18 @@
 #ifndef CAR_H
 #define CAR_H
 
-#include "ServiceInterface.h"
-
+template <class EngineType>
 class Car
 {
-    
+    EngineType engine;
 public:
-    Car();
-    ~Car();
+    Car() {}
+    ~Car() {}
     
-    void Start();
-    void Drive();
-    void Stop();
-    void Shutoff();
+    void Start() { engine.Start(); }
+    void Drive() { engine.Rev(); }
+    void Stop() {engine.Stop(); }
+    void Shutoff() { engine.Shutoff(); }
 private:
 
 };
